@@ -252,7 +252,7 @@ python solution_industrial_ai.py
 
 ---
 
-## 🛠️ Dépendances
+##  Dépendances
 
 | Package | Version minimale |
 |---------|-----------------|
@@ -263,18 +263,8 @@ python solution_industrial_ai.py
 | matplotlib | ≥ 3.6 |
 | seaborn | ≥ 0.12 |
 
----
 
-## 📌 Notes techniques
 
-**Pourquoi ExtraTrees plutôt que LightGBM ?**  
-Sur des datasets de taille modérée (~5K lignes) avec des features peu corrélées aux cibles, ExtraTrees surpasse souvent les boosting methods. L'aléatoire maximal des splits réduit la variance sans nécessiter de tuning intensif.
-
-**Anti-leakage strict**  
-Toutes les transformations (imputation, scaling, PCA) sont fittées exclusivement sur le train set et appliquées en `transform only` sur l'inférence.
-
-**Post-processing physique**  
-Les prédictions sont clippées aux bornes `[min, max]` observées sur le train pour respecter les contraintes physiques du domaine optique.
 
 ---
 
