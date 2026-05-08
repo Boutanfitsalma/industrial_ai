@@ -62,12 +62,12 @@ Les features `oh*` (mesures de planéité à des points spécifiques) sont les p
 | 5 | `oh58` | 0.294 |
 
 ### Cibles Y — difficulté variable
-| Cible | Max |r| linéaire | R² linéaire max |
-|-------|-----------------|----------------|
-| k9 | 0.317 | 0.100 ⚠️ |
-| k5 | 0.346 | 0.120 ⚠️ |
-| k11 | 0.553 | 0.306 ✅ |
-| k12 | 0.491 | 0.241 ✅ |
+| Cible | Corrélation max \|r\| | R² linéaire max |
+|-------|----------------------|----------------|
+| k9    | 0.317                | 0.100 ⚠️       |
+| k5    | 0.346                | 0.120 ⚠️       |
+| k11   | 0.553                | 0.306 ✅        |
+| k12   | 0.491                | 0.241 ✅        |
 
 ### Corrélations Y-Y
 - Corrélation inter-cibles moyenne : **0.349**
